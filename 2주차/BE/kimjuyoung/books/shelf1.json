@@ -1,0 +1,12 @@
+[
+    {
+        "id": "b1",
+        "title" : "effective c++",
+        "publisher" : "Addison-Wesley Professional"
+    },
+    {
+        "id": "b2",
+        "title" : "Java 프로그래밍 입문",
+        "publisher" : "북스홀릭"
+    }
+]

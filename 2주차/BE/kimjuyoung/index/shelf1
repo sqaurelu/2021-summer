@@ -1,0 +1,25 @@
+<div class = "left">
+    <div class="side">
+        <h1> 서재1</h1>
+        <ul>
+            <li><a href= "./?id=shelf1"> 서재1 </a></li>
+            <li><a href= "./?id=shelf1"> 서재2 </a></li>
+        </ul>
+    </div>
+    <div class="input">
+        <p>Put a book on the shelf</p>
+        <form action="http://127.0.0.1:3000/create_process" method="post">
+            <input type="text" name="title" placeholder="title" size="21px">
+            <input type="text" name="publisher" placeholder= "publisher"size="21px">
+            <input type="text" name="author" placeholder= "author"size="21px">
+            <input type="text" name="uid" placeholder= "userid"size="21px">
+            <p><input type="submit"></p>
+        </form>
+    </div>
+</div>
+<div class="outside">
+
+    <div class="shelf">     
+        <ul></ul>
+    </div>
+</div>

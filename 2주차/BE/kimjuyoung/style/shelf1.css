@@ -1,0 +1,151 @@
+@font-face{/*font 파일참조*/
+    font-family: abster; /* 적용할 폰트 패밀리 규칙 */
+    src:url(../font/abster-webfont.woff) format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/empty.jpeg);
+    
+}
+
+
+.container .header{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header h1 a{
+    text-decoration: none;
+    color: white;
+    font-family: abster;
+}
+
+.container .nav {
+    display: flex;
+    align-items: center;
+}
+
+.container .nav ul li{
+    display: inline-block; /* inline*/
+    margin:0 10px; 
+}
+
+.container .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .nav ul li a:hover{ /* 선택자 hover이름*/
+    color: #1fdfdf;
+}
+
+.container .nav .material-icons{
+    margin: 0 10px; 
+    font-size: 30px;
+}
+
+
+
+.container .nav .material-icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .nav .material-icons a:hover{ /* 선택자 hover이름*/
+    color: #1fdfdf;
+}
+
+.left{
+    display: inline;
+}
+
+.side{
+    color: white;
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 7%;
+    height: 40vh;    
+    border-right: solid 3px white;
+}
+
+.side ul li {
+    margin-top: 10px;  
+    margin-left: 40px;
+}
+
+.side ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.side ul li a:hover{ /* 선택자 hover이름*/
+    color: #1fdfdf;
+}
+
+.outside{
+    position: absolute; /*항상 화면 정중앙*/
+    left:55%;
+    top:50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.input{
+    margin-top: 50px;
+    margin-left:300px;
+    width: 15%;   
+    color: white;
+}
+.shelf{
+    transform: rotate(90deg);
+}
+.shelf > ul {
+    outline: 10px solid white;
+}
+
+.shelf > ul > li{
+    width:100%;
+    height: 60px;
+    outline: 2px solid white;
+}
+
+.shelf > ul > li > ul{
+    display: flex;
+    
+}
+
+.shelf > ul > li > ul > li{
+    width: 180px;
+    height: 60px;
+    outline: 1px solid white;
+    /* writing-mode: vertical-lr; */
+    text-orientation: upright;
+    text-align: center;    
+}
+
+.b1{
+    background:green; 
+    font-weight: bold;
+}
+
+
+.b2{
+    background:yellow; 
+    font-weight: bold;
+}

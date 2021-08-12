@@ -1,0 +1,8 @@
+<div class ="hero">      
+    <h2> Welcome </h2>
+    <p> 개인서재를 관리하는 공간입니다.</p>
+    <ol>
+        <li><a href= "./?id=shelf1"> 서재1 </a></li>
+        <li><a href= "./?id=shelf1"> 서재2 </a></li>
+    </ol>
+</div>
