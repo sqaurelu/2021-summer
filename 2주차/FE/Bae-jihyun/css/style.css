@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-color: #464646;
+}
+
+.time,
+#login-form,
+#greeting,
+#todo-form,
+#todo-list,
+#quote > span {
+  display: flex;
+  justify-content: center;
+}
+
+.time {
+  flex-direction: row;
+}
+
+#clock {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  margin: 60px 10px 30px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+#login-form > button {
+  margin-left: 10px;
+}
+
+#greeting {
+  color: white;
+}
+
+#todo-list {
+  flex-direction: column;
+}
+
+li {
+  color: white;
+  margin: auto;
+}
+
+#quote {
+  color: white;
+  flex-direction: column;
+}
+
+input {
+  width: 200px;
+}
+
+.hidden {
+  display: none;
+}
