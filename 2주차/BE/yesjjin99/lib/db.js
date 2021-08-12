@@ -2,7 +2,7 @@ var mysql = require('mysql');
 var db = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
-  password : 'beast4518',
+  password : '',
   database : 'dev_immersion'
 });
 db.connect();
