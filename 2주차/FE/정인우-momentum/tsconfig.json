@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES6",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es5",
+      "ES6",
+      "ES2017",
+      "ES2018",
+      "ES2019",
+      "ES2020",
+      "es2015",
+      "es2016",
+      "dom",
+      "DOM.Iterable"
+  ],
+  },
+  "esModuleInterop": true,
+}
