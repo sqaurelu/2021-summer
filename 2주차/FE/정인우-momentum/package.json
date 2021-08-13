@@ -1,7 +1,7 @@
 {
   "name": "momentum2",
   "version": "1.0.0",
-  "description": "",
+  "description": "이번 프로젝트는 Nomad Coders의 바닐라 JS로 크롬 앱 만들기 강의를 듣고, 결과물에 웹팩을 적용하여 모듈화 및 번들링 해보고 간단한 타입스크립트 및 css를 사용후 웹팩 loader로 ts-loader와 css-loader를 사용해보았다. 자바스크립트는 DOM API를 조작하는 부분보다는, 최근에 더 많이 사용한다고 여겨지는 template을 활용하려고 해보았다. 내용은 강의에 나온 내용 그대로이다.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack"
