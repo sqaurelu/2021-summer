@@ -1,0 +1,14 @@
+* {padding: 0; margin: 0;}
+* {background-color:#ffffff; font-family:  "Noto Sans CJK KR"}
+
+/* (반응형)오른쪽 상단바 */
+.container{width: 1200px; margin: 0 auto; background: inherit; text-align:right;}
+.container a{display: inline-block; text-decoration: none; color: #212121; padding: 5px 0 0 10px; transition: all 0.5s ease;}
+.container a:hover {color: #f44336 }
+@media (max-width : 1280px) {.container {width: 90%; padding:0 15px}}
+
+/* 본문 내용 */
+.title {text-align: center; text-transform:uppercase;}
+.title p {display: inline; font-size: 24px; color:#424242; padding: 20px 20px}
+.title h2 {display: block; color: #000000; font-size: 32px; padding:50px 10px;}
+
