@@ -49,3 +49,11 @@
 - HTML, CSS, JAVASCRIPT의 모든 부분에서 많이 부족함을 느껴서 자신감을 얻기 위해 복습 꼭 필요!
 - git 사용법에 대하여 이해하려고 많이 노력해보았지만 아직 부족한 부분이 많아 더 확실한 학습 필요!
 - JAVASCRIPT의 함수들과 각종 기능 들의 사용법을 쓰는데 어려움이 있어 방법 터득 필요
+
+
+
+
+
+> **VSCode _Plugin 링크**
+
+- https://velog.io/@leyn53/VSCode-Plugin
