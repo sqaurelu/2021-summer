@@ -1,0 +1,141 @@
+
+.hidden{
+    display: none;
+}
+
+.background{
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-cover{
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+body{
+   
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+input[type=text]{
+    width: 180px;
+    height: 25px;
+    border: 4px solid pink;
+    border-radius: 5px;
+}
+
+input[type=text]:focus{
+    width: 190px;
+    height: 25px;
+    border: 4px solid pink;
+    border-radius: 5px;
+    
+}
+
+.button-name{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.button-name:hover{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#todo-form{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    opacity: 60%;
+    
+}
+
+#todo-list{
+    position: absolute;
+    top: 66%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    text-align: center;
+    font-size: 17px;
+    color:  whitesmoke;
+    opacity: 60%;
+}
+
+#login-form{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    opacity: 60%;
+}
+#greeting{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    opacity: 60%;
+}
+
+
+
+.clock-font{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    opacity: 60%;
+}
+.quote-font{   
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15x;
+    color: green;
+    background-color: whitesmoke;
+    opacity: 60%;
+}
+.weather-font{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 15px;
+    color: skyblue;
+    opacity: 60%;
+}
