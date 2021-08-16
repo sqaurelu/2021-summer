@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Momentum</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <form id="login-form" class="hidden" >
+            <input 
+             required maxlength="15"
+                          type="text" 
+                          placeholder="이름을 입력해주세요!"
+                          />
+                         <input type="submit" value="로그인 하기" class="submit-form"/>
+                     </form>
+                     <h2 id="clock" class="clock-font">00:00</h2>
+                     <h1 id="greeting" class="hidden"></h1>
+                     <form id="todo-form">
+                         <input 
+                         required maxlenth="20"
+                         type="text" 
+                         placeholder="수강 희망 과목을 적어주세요!" />
+                         <input type="submit" value="추가 하기" class="submit-form"/>
+                     </form>
+                     <ul id="todo-list">▼ 희망 과목 목록 ▼</ul>
+                     <div id="quote" class="quote-font">
+                         <span></span>
+                         <span></span>
+                     </div>
+                     <div id="weather" class="weather-font">
+                         <span></span>
+                         <span></span>
+                     </div>
+                     <div class="background-cover"></div>
+                     <script src="js/greetings.js"></script>
+                     <script src="js/clock.js"></script>
+                     <script src="js/quotes.js"></script>
+                     <script src="js/background.js"></script>
+                     <script src="js/todo.js"></script>
+                     <script src="js/weather.js"></script>
+                     
+                 </body>
+             </html>
+            
