@@ -1,0 +1,17 @@
+.hidden{
+    display: none;
+}
+body{
+    display: inline-flex;
+    background-color: cadetblue;
+}
+
+#quote{
+    padding-top: 150px;
+}
+
+#quote span{
+    padding-top: 50px;
+    font-size: large;
+    font-weight: 100;
+}
