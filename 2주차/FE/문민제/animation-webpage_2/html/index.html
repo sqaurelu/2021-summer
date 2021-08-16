@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니조아</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <a href="index.html"><h1>ANIJOA</h1></href>
+            </a>
+        </div>
+        <h2 class="sub">당신이 좋아하는 애니의 모든 정보</h2>
+        <div class="header">
+            <form  class="hidden" id="login-form">
+            <input 
+                    required
+                    maxlength="10"
+                    type="text"
+                    placeholder="닉네입 입력"
+            />
+            <input type="submit" value="로그인" style="font-size: 15px;"/>
+            </form>
+            <h2 id="greeting" class="hidden"></h2>
+            <script src="../js/login.js"></script>
+            <div class="detail">
+                <button class="btn01" onclick="fn_spread('hiddenContent01');">제작사</button>
+                <div id="hiddenContent01"class="genre" style="display: none;">
+                    <p>본즈 쿄토애니메이션  A-1Pictures 유포터블</p>
+                    <p>WitStudio 프로덕션I.G P.A.Works J.CStaff </p>
+                    <p>동화공방 스튜디오 딘 실버 링크 스튜디오 피에로 </p>
+                    <p>화이트폭스 라르케 트리거 폴리곤 픽쳐스 </p>
+                    <p>매드하우스 샤프트 MAPPA 사테라이트</p>
+                </div>
+                <button class="btn02" onclick="fn_spread('hiddenContent02');">장르</button>
+                    <div id="hiddenContent02"class="genre" style="display: none;">
+                        <p>모험 개그 SF </p>
+                        <p>무협 일상 액션</p>
+                        <p>재난 드라마 판타지 </p>
+                        <p>미스터리 스포츠 아이돌</p>
+                    </div>
+                <button class="btn03" onclick="fn_spread('hiddenContent03');">평점별</button>
+                <div id="hiddenContent03"class="genre" style="display: none;">
+                    ★5<br>
+                    ★4<br>
+                    ★3<br>
+                    ★2<br>
+                    ★1<br>
+                </div>
+                <script src="../js/button.js"></script>
+            </div>
+            <div class="search">
+                <input type="search" name="" placeholder="검색하기" value="" onkeydown="alert('미구현')"
+                style="width: 300px;height: 30px;font-size: 15px;">
+            </div>
+        </div>
+        <div class="img-list">  
+            <div class="img-box" onclick="location.href='1.html'">
+                <p>추천애니 TOP 8</p>          
+                <img class="image1" src="../img/img1.jpg" alt="">
+            </div>
+            <div class="img-box" onclick="location.href='2.html'">      
+                <p>2021년 3분기 애니</p>
+                <img class="image2" src="../img/img2.jpg" alt="">
+            </div>
+
+            <div class="img-box" onclick="location.href='3.html'">
+                <p>병맛 애니 TOP 4</p>
+                <img class="image3" src="../img/img3.jpg" alt="">
+            </div>
+
+            <div class="img-box" onclick="location.href='4.html'">
+                <p>인기 애니(매출순) TOP 8</p>
+                <img class="image4" src="../img/img4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
