@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMO</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="memo-wrapper">
+        <h1 class="title">📝 메모앱</h1>
+        <div class="button-wrapper">
+            <button id="add-memo">메모 추가하기</button>
+            <button class="delete-memo">메모 삭제하기</button>
+        </div>
+
+        <div class="modal hidden">
+            <div class="modal-wrapper">
+                <form autocomplete="off" class="modal-form" method="POST">
+                    <input type="text" class="modal-title" placeholder="제목을 입력해주세요.">
+                    <textarea class="modal-content"></textarea>
+                    <div class="button-wrapper">
+                        <button id="modal-close" type="button">취소</button>
+                        <button id="modal-submit" type="submit">완료</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="memo-list">
+            <!-- <div class="memo-item">
+                <div class="memo-item-left">
+                    <div class="memo-item-title">메모 제목</div>
+                    <div class="memo-item-content">메모 내용...</div>
+                </div>
+                <div class="memo-item-right">2021.08.11</div>
+            </div> -->
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
