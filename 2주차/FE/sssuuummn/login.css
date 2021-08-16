@@ -1,0 +1,78 @@
+* {padding: 0; margin: 0;}
+* {background-color:#ffffff; font-family:  "Noto Sans CJK KR"}
+
+/* (반응형)오른쪽 상단바 */
+.container{width:1200px; margin:0 auto; background:inherit; text-align:right;}
+.container a{display:inline-block; text-decoration:none; color:#212121; padding: 5px 0 0 10px; transition: all 0.5s ease;}
+.container a:hover {color:#f44336; }
+@media (max-width : 1280px) {.container {width:90%; padding:0 15px}}
+
+/* 내용 가운데 정렬 */
+body {text-align: center}
+
+.loginForm {
+  position:absolute;
+  width:300px;
+  height:400px;
+  padding: 30px, 20px;
+  background-color:#fff2f2;
+  text-align:center;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+}
+
+.loginForm h2{
+  text-align: center;
+  margin: 30px;
+  background-color: inherit;
+
+}
+
+.id {
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+}
+
+.pw {
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+}
+
+.btn {
+  position:relative;
+  left:40%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  width:80%;
+  height:40px;
+  background: linear-gradient(125deg,#ffe6e6,#7cb388,#7cb342);
+  background-position: left;
+  background-size: 200%;
+  color:white;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+  display:inline;
+
+}
+
+.btn:hover {
+  background-position: right;
+}
+
+.bottomText {
+  text-align: center;   background-color: inherit;
+}
+.bottomText a{text-decoration: none;   background-color: inherit;}
