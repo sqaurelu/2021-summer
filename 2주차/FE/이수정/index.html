@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a2baf9f9c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--background image-->
+    <div id="bg">
+        <img src="image/background.jpg" alt="">
+    </div>
+
+    <header>
+        <!--greeting-->
+        <form class='hidden' id='name-form'>
+            <input class="inputname" required maxlength="15" type="text" placeholder="What is your name?">
+            <input type="submit" class="fas fa-sign-in-alt" value="&#xf2f6">
+        </form>
+        <h1 id = 'greeting' class='hidden'></h1>
+    </header>
+
+    <main>
+        <!--calendar-->
+        <div class='info1'>
+            <p id='calendar'>0000.00.00</p> 
+        </div>
+        <div class="content">
+            <!--todoList-->
+            <div class="todolist">
+                <form id="todo-form">
+                    <input type="text" placeholder="Write a To Do" required>
+                </form>
+                <p class='new'>New</p>
+                <ul id="todo-list"></ul>
+            </div>
+            <div class="time-apps">
+                <!--time-->
+                <div class="info2">
+                    <p id ='clock'>00:00:00</p>
+                </div>
+                <!--apps-->
+                <div class='apps'>
+                    <a href="https://www.naver.com/" target="_blank" class="appsBtn">
+                        <img src="image/naver.png">
+                    </a>
+                    <a href="https://www.google.co.kr/" target="_blank" class="appsBtn">
+                        <img src="image/google.jpg">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" class="appsBtn">
+                        <img src="image/youtube.png">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="appsBtn">
+                        <img src="image/instagram.png">
+                    </a>
+                    <a href="https://github.com/" target="_blank" class="appsBtn">
+                        <img src="image/github.jpg">
+                    </a>
+                </div>
+            </div>                
+        </div>
+    </main>
+
+    <script src="JS/greeting.js"></script>
+    <script src="JS/clock.js"></script>
+    <script src="JS/calendar.js"></script>
+    <script src="JS/todolist.js"></script>
+</body>
+</html>
