@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <head>
+    <style>
+      form{
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        border-radius: 15px;
+      }
+      input{
+        display: block;
+        margin-top:75px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 35px;
+        width: 350px;
+        border-radius: 5px;
+        border:1px solid;
+      }
+      h1{
+        text-align: center;
+      }
+      a{
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 25px;
+      }
+    </style>
+    <div>
+      <a href="/">HOME</a>
+      <h1>회원가입</h1>
+    </div>
+    
+  </head>
+  <body>
+  
+    <form action="/create" method="post">
+      <input type="text" name="username" placeholder="아이디를 입력해주세요">
+      <input type="password" name="password" placeholder="비밀번호를 입력해주세요">
+      <input type="text" name="nickname" placeholder="닉네임을 입력해주세요">
+      <input type="submit" value="가입">
+    </form>>
+  </body>
+</html>
